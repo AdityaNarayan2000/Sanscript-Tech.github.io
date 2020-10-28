@@ -1,0 +1,202 @@
+/* for removing scrollbar */
+::-webkit-scrollbar{
+    width:0px;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgb(110, 56, 56),rgb(199, 102, 102),rgb(110, 56, 56));
+}
+H1{
+    color: yellowgreen;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+    color: rgb(214, 218, 212);
+    font-size: 20px;
+}
+.top {
+    text-align: center;
+    margin-left: 10px;
+}
+.git {
+    background-color: rgb(3, 64, 88);
+    color: aliceblue;
+}
+thu {
+    color: aliceblue;
+}
+/* thu is the term thumbnail when foto is not present */
+.list{
+    background-color: rgb(252, 243, 209);
+}
+.des{
+    border-top: 1px solid black;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+@media(min-width: 700px) {
+    .container {
+        padding-top: 20px;
+        padding-left: 10%;
+        margin: auto;
+        width: 75%;
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list {
+        margin: 20px;
+        width: 260px;
+        height: 300px;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    }
+
+    .img {
+        
+        overflow: hidden;
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        height: 49%;
+        width:100%;
+    }
+
+    .des {
+        padding: 5%;
+    }
+
+        
+.stat {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+}
+.view{
+    margin: 15%;
+}
+
+}
+
+@media (max-width: 874px) and (min-width: 700px){
+    .container{
+        margin: auto;
+        align-content: center;
+        width: 110%;
+    }
+    
+.stat {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+}
+.view{
+    margin: 15%;
+}
+
+}
+
+@media(max-width: 700px) and (min-width: 500px) {
+    .container {
+        align-content: stretch;
+        margin: auto;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list {
+        margin: 20px 40px;
+        height: 380px;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    }
+
+    .img {
+        overflow: hidden;
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 54%;
+    }
+
+    .des {
+        padding: 5%;
+    }
+
+    
+.stat {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.view{
+    margin: 7%;
+}
+}
+
+@media(max-width: 500px) {
+    .container {
+        padding-top: 20px;
+        padding-left: 10%;
+        margin: auto;
+        width: 75%;
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list {
+        margin: 20px;
+        width: 260px;
+        height: 300px;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    }
+
+    .img {
+        
+        overflow: hidden;
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        height: 49%;
+        width:auto;
+    }
+
+    .des {
+        padding: 5%;
+    }
+
+        
+.stat {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.view{
+    margin: 15%;
+}
+
+}
